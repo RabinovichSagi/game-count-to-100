@@ -85,7 +85,7 @@ main {
 }
 
 .grid-container {
-    dir: ltr;
+    direction: ltr;
 }
 
 .grid-container, .numpad-container {
