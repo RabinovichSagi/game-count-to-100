@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>משחק ספירה עד 100</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="game-controls">
+
+                <h1>משחק ספירה עד 100</h1>
+                
+                <div class="config-section">
+                    <h3>מצב:</h3>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="mode" value="sequential" checked>
+                            רציף
+                        </label>
+                        <label>
+                            <input type="radio" name="mode" value="every2">
+                            כל 2
+                        </label>
+                        <label>
+                            <input type="radio" name="mode" value="every5">
+                            כל 5
+                        </label>
+                        <label>
+                            <input type="radio" name="mode" value="every10">
+                            כל 10
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="config-section">
+                    <h3>כיוון:</h3>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="direction" value="forward" checked>
+                            קדימה
+                        </label>
+                        <label>
+                            <input type="radio" name="direction" value="reverse">
+                            אחורה
+                        </label>
+                    </div>
+                </div>
+                
+                    
+                <div class="timer-section">
+                    <div class="best-time">זמן הטוב ביותר: <span id="best-time-display">--:--</span></div>
+                    <div class="timer">זמן: <span id="timer-display">00:00</span></div>
+                </div>
+
+                <button id="start-game">התחל משחק</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="numpad-container">
+                <div class="numpad">
+                    <button class="num-btn" data-value="1">1</button>
+                    <button class="num-btn" data-value="2">2</button>
+                    <button class="num-btn" data-value="3">3</button>
+                    <button class="num-btn" data-value="4">4</button>
+                    <button class="num-btn" data-value="5">5</button>
+                    <button class="num-btn" data-value="6">6</button>
+                    <button class="num-btn" data-value="7">7</button>
+                    <button class="num-btn" data-value="8">8</button>
+                    <button class="num-btn" data-value="9">9</button>
+                    <button class="num-btn zero-btn" data-value="0">0</button>
+                    <button id="clear-btn">נקה</button>
+                    <button id="enter-btn">אישור</button>
+                </div>
+                <div class="hint-container">
+                    <div id="hint-display"></div>
+                </div>
+            </div>
+            
+            <div class="grid-container">
+                <div id="grid"></div>
+            </div>
+        </main>
+    </div>
+    
+    <div id="completion-modal" class="modal">
+        <div class="modal-content">
+            <h2>כל הכבוד!</h2>
+            <p>השלמת את המשחק בזמן <span id="completion-time"></span>!</p>
+            <p>הזמן הטוב ביותר שלך: <span id="modal-best-time"></span></p>
+            <button id="play-again">שחק שוב</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
