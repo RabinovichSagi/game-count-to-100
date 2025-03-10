@@ -84,6 +84,10 @@ main {
     gap: 20px;
 }
 
+.grid-container {
+    dir: ltr;
+}
+
 .grid-container, .numpad-container {
     flex: 1;
     min-width: 300px;
