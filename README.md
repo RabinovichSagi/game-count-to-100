@@ -1,8 +1,10 @@
-# משחק ספירה עד 100
+# משחק ספירה עד 100 (Count to 100 Game)
 
 משחק חינוכי פשוט שנועד לעזור לילדים לתרגל ספירה מ-0 עד 100 ובכיוון ההפוך.
 
-## תכונות
+A simple educational game designed to help children practice counting from 0 to 100 and in reverse.
+
+## תכונות (Features)
 
 - רשת 10x10 המייצגת מספרים מ-0 עד 100
 - מצבי משחק מרובים:
@@ -21,7 +23,7 @@
 - אישור לפני רענון הדף למניעת אובדן התקדמות בטעות
 - תמיכה מלאה בעברית וכיוון RTL
 
-## איך לשחק
+## איך לשחק (How to Play)
 
 1. בחר מצב משחק וכיוון באמצעות כפתורי הרדיו בחלק העליון
 2. לחץ על "התחל משחק" כדי להתחיל
@@ -32,20 +34,26 @@
 7. לאחר 3 ניסיונות שגויים, יופיע רמז עם המספר הנכון
 8. השלם את כל הרשת כדי לסיים את המשחק
 
-## התקנה
+## התקנה (Installation)
 
 אין צורך בהתקנה! פשוט פתח את קובץ `index.html` בכל דפדפן מודרני.
 
-## להורים/מורים
+No installation required! Simply open the `index.html` file in any modern web browser.
+
+## להורים/מורים (For Parents/Teachers)
 
 משחק זה נועד לעזור לילדים לתרגל את מיומנויות הספירה שלהם בדרך מהנה ואינטראקטיבית. המצבים והכיוונים השונים מאפשרים תרגול מגוון ככל שהמיומנויות מתפתחות. הטיימר מוסיף אתגר עדין לילדים לשפר את המהירות שלהם לאורך זמן.
 
 הדרישה להזין כל מספר ברצף מחזקת את סדר הספירה הנכון.
 
-## פרטים טכניים
+## פרטים טכניים (Technical Details)
 
 משחק זה בנוי עם HTML, CSS ו-JavaScript בסיסיים. הוא משתמש ב-localStorage לשמירת זמנים הטובים ביותר בין הפעלות דפדפן.
 
-## רישיון
+This game is built with vanilla HTML, CSS, and JavaScript. It uses localStorage to save best times across browser sessions.
 
-פרויקט זה הוא קוד פתוח וחופשי לשימוש למטרות חינוכיות. 
+## רישיון (License)
+
+פרויקט זה הוא קוד פתוח וחופשי לשימוש למטרות חינוכיות.
+
+This project is open source and free to use for educational purposes.
