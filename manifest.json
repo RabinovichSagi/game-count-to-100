@@ -1,0 +1,18 @@
+{
+    "name": "משחק ספירה עד 100",
+    "short_name": "ספירה עד 100",
+    "description": "משחק ספירה עד 100 עם מצבי משחק שונים",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./countdown.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+} 
